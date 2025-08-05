@@ -4,26 +4,73 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Treasurf - La caccia al tesoro è iniziata</title>
+  <title>Treasurf - Scopri i Tesori di Napoli</title>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Spectral&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1 class="logo">Treasurf</h1>
-    <p class="tagline">🗺️ "Non tutti i tesori sono sepolti. Alcuni aspettano solo di essere scoperti."</p>
+    <nav>
+      <h1 class="logo">Treasurf</h1>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#maps">Mappe</a></li>
+        <li><a href="#about">Chi siamo</a></li>
+        <li><a href="#how">Come funziona</a></li>
+        <li><a href="#contact">Contatti</a></li>
+      </ul>
+    </nav>
+    <section class="hero" id="home">
+      <h2>"Non tutti i tesori sono sepolti. Alcuni aspettano solo di essere scoperti."</h2>
+    </section>
   </header>
 
   <main>
-    <section class="intro">
-      <h2>Esplora mappe, segreti e misteri da ogni parte del mondo</h2>
-      <p>Unisciti a noi e scopri i tesori nascosti con stile, intuizione e spirito d'avventura.</p>
+    <section class="map-section" id="maps">
+      <h2>Mappe del Tesoro: Napoli</h2>
+      <div class="map-grid">
+        <div class="map-card">
+          <h3>Sotterranei Napoletani</h3>
+          <p>Nel cuore della Napoli ipogea, tra acquedotti e rifugi dimenticati.</p>
+        </div>
+        <div class="map-card">
+          <h3>Galleria Borbonica Segreta</h3>
+          <p>Un tunnel reale abbandonato, ricco di misteri e camere oscure.</p>
+        </div>
+        <div class="map-card">
+          <h3>Catacombe & Ipogee</h3>
+          <p>Cimiteri e templi nascosti nelle viscere della città greco-romana.</p>
+        </div>
+        <div class="map-card">
+          <h3>Il Rifugio di Sant’Anna</h3>
+          <p>Un rifugio della guerra che parla con i suoi graffiti e silenzi.</p>
+        </div>
+        <div class="map-card">
+          <h3>Percorso dei Misteri</h3>
+          <p>Un itinerario urbano pieno di enigmi, codici e tracce dimenticate.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <h2>Chi siamo</h2>
+      <p>Treasurf nasce dalla passione per il mistero, l’esplorazione e la storia. Le nostre mappe ti guidano in esperienze uniche, alla scoperta di mondi nascosti.</p>
+    </section>
+
+    <section class="how" id="how">
+      <h2>Come funziona</h2>
+      <p>Acquista la mappa, ricevi il pacchetto digitale o fisico, segui gli indizi e scopri il tesoro. Ogni avventura è diversa, ogni mappa è un’esperienza.</p>
     </section>
 
     <section class="cta">
-      <h3>Acquista ora</h3>
+      <h2>Acquista una mappa</h2>
       <button onclick="alert('Pagamento con carta non ancora configurato')">💳 Paga con Carta</button>
       <button onclick="alert('Verrai reindirizzato a PayPal')">💰 Paga con PayPal</button>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2>Contattaci</h2>
+      <p>Email: info@treasurf.com</p>
     </section>
   </main>
 

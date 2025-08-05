@@ -6,43 +6,71 @@ body {
   color: #e5e5e5;
 }
 
-header {
-  text-align: center;
-  padding: 4rem 2rem 2rem;
-  background: linear-gradient(to bottom, #0b0c10, #1f2833);
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #1f2833;
 }
 
 .logo {
   font-family: 'Cinzel', serif;
-  font-size: 3rem;
+  font-size: 1.8rem;
   color: #d4af37;
-  letter-spacing: 2px;
 }
 
-.tagline {
-  font-style: italic;
-  font-size: 1.2rem;
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  text-decoration: none;
   color: #66fcf1;
-  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.hero {
+  padding: 3rem 2rem;
+  text-align: center;
+  background: linear-gradient(to bottom, #0b0c10, #1f2833);
+}
+
+.hero h2 {
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #66fcf1;
 }
 
 main {
   padding: 2rem;
-  text-align: center;
 }
 
-.intro h2 {
-  font-size: 2rem;
-  color: #c5c6c7;
+.map-section, .about, .how, .cta, .contact {
+  margin-bottom: 4rem;
 }
 
-.cta h3 {
-  margin-top: 3rem;
-  font-size: 1.5rem;
-  color: #45a29e;
+.map-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
 }
 
-button {
+.map-card {
+  background-color: #1f2833;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(255,255,255,0.1);
+}
+
+.map-card h3 {
+  color: #d4af37;
+}
+
+.cta button {
   margin: 1rem;
   padding: 1rem 2rem;
   background-color: #45a29e;
@@ -51,10 +79,9 @@ button {
   font-size: 1rem;
   border-radius: 5px;
   cursor: pointer;
-  transition: background 0.3s ease;
 }
 
-button:hover {
+.cta button:hover {
   background-color: #66fcf1;
 }
 
