@@ -2,48 +2,33 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-  <meta charset="UTF‑8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Treasurf – Viaggi & Mappe del Tesoro</title>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Treasurf - La caccia al tesoro è iniziata</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Spectral&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>Treasurf</h1>
-    <nav><a href="#mappe">Mappe</a><a href="#esperienze">Esperienze</a><a href="#contatti">Contatti</a></nav>
+    <h1 class="logo">Treasurf</h1>
+    <p class="tagline">🗺️ "Non tutti i tesori sono sepolti. Alcuni aspettano solo di essere scoperti."</p>
   </header>
 
-  <section class="hero">
-    <h2>Avventure in ogni angolo del mondo</h2>
-    <p>Mappe del tesoro, enigmi e viaggi indimenticabili</p>
-  </section>
+  <main>
+    <section class="intro">
+      <h2>Esplora mappe, segreti e misteri da ogni parte del mondo</h2>
+      <p>Unisciti a noi e scopri i tesori nascosti con stile, intuizione e spirito d'avventura.</p>
+    </section>
 
-  <section id="mappe">
-    <h3>Le nostre mappe</h3>
-    <p>Seleziona la mappa che desideri acquistare:</p>
-    <ul class="products">
-      <li>
-        <strong>Mappa Classica</strong> – Mediterraneo, isole misteriose
-        <a class="btn-paypal" href="PAYPAL_BUTTON_LINK">Paga con PayPal</a>
-        <a class="btn-stripe" href="STRIPE_PAYMENT_LINK">Paga con Carta</a>
-      </li>
-      <!-- Puoi duplicare altri items simili per altri prodotti -->
-    </ul>
-  </section>
-
-  <section id="esperienze">
-    <h3>Esperienze interattive</h3>
-    <p>Partecipa a missioni personalizzate, risolvi enigmi, scopri tesori reali.</p>
-  </section>
-
-  <section id="contatti">
-    <h3>Contattaci</h3>
-    <p>Scrivici a <a href="mailto:info@treasurf.com">info@treasurf.com</a> per collaborazioni e proposte.</p>
-  </section>
+    <section class="cta">
+      <h3>Acquista ora</h3>
+      <button onclick="alert('Pagamento con carta non ancora configurato')">💳 Paga con Carta</button>
+      <button onclick="alert('Verrai reindirizzato a PayPal')">💰 Paga con PayPal</button>
+    </section>
+  </main>
 
   <footer>
-    <p>&copy; 2025 Treasurf</p>
+    <p>&copy; 2025 Treasurf. Tutti i diritti riservati.</p>
   </footer>
 </body>
 </html>
